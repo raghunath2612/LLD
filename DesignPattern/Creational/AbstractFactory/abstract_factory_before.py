@@ -1,3 +1,14 @@
+"""
+Abstract Factory pattern is mainly used to club elements into one single component.
+Ex: If you only need a button for windows, then you can go for Factory pattern.
+But in this case you need to create UI which includes multiple components of windows like:
+        Button, CheckBox, Radio Button, etc.,
+In this case, it's good to go with Abstract factory pattern,
+where we will club multiple Factories like, Button, CheckBox, Radio into a single factory.
+And then create another factory on top of it like WindowsFactory, MacFactory which will use
+        the above created Factories.
+"""
+
 from abc import ABC, abstractmethod
 
 class Button(ABC):
@@ -59,6 +70,8 @@ class FactoryProvider:
         else:
             raise ValueError("Provided OS doesn't exist")
 
+
+# can create a separate class for this alternatively.
 def render_ui(factory: UIFactory):
     button = factory.create_button()
     check_box = factory.create_check_box()
