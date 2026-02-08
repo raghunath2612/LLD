@@ -14,7 +14,7 @@ class MacButton(Button):
     def render(self) -> str:
         return "Mac Button rendered"
 
-def create_button(os: str):
+def create_button(os: str) -> Button:
     if os.lower() == "windows":
         return WindowsButton()
     elif os.lower() == "mac":
