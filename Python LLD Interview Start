@@ -1,0 +1,7 @@
+📌 One practical trick for interviews
+
+Python does not have true access modifiers — it relies on naming conventions and developer discipline.
+
+When you start coding in Python for LLD, say:
+“I’ll implement this in Python for brevity, but I’ll follow strong OOP principles as if we were writing this in a typed language like Java.”
+This immediately sets the interviewer’s expectations.
