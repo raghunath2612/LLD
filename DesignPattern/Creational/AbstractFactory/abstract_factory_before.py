@@ -1,5 +1,5 @@
 """
-Abstract Factory pattern is mainly used to club elements into one single component.
+Provides an interface for creating families of related objects without specifying their concrete classes.
 Ex: If you only need a button for windows, then you can go for Factory pattern.
 But in this case you need to create UI which includes multiple components of windows like:
         Button, CheckBox, Radio Button, etc.,
