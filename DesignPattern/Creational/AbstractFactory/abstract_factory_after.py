@@ -60,7 +60,7 @@ class MacUIFactory(UIFactory):
         return MacCheckBox()
 
 
-class FactoryProvider():
+class FactoryProvider:
     @staticmethod
     def get_factory(os_type: str) -> UIFactory:
         if os_type.lower() == "windows":
