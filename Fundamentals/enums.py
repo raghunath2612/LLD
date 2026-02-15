@@ -28,6 +28,10 @@ class Priority(IntEnum):
 priority = Priority.CRITICAL
 print(priority < priority.MEDIUM)
 
+# Looping through IntEnum
+for en in IntEnum:
+    print(en)
+
 
 class Color(Enum):
     RED = (255, 0, 0)
