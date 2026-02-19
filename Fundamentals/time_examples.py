@@ -12,3 +12,6 @@ diff_in_mins = time3.total_seconds() // 60
 
 print(diff_in_mins)
 print(type(diff_in_mins))
+
+
+print(time1.hour)
