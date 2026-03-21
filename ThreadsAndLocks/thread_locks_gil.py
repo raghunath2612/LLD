@@ -21,7 +21,7 @@ def with_out_lock_example():
         thread.start()
 
     for thread in threads:
-        thread.join()
+        thread.join() # without join the main thread will exit before all the threads finisher
 
 def with_lock_example():
     threads = []
