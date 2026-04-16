@@ -1,0 +1,4 @@
+Does A own B? (Composition - strong ownership)
+Does A use B, but B exists independently? (Aggregation - weak ownership)
+Does A implement B's contract? (Implementation - interface/abstract class)
+Does A need B to function? (Dependency - uses but doesn't own)
